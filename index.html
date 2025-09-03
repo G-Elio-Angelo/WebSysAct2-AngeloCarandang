@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wuthering Waves</title>
+  <style>
+    body {
+      background-color: #1c1f2e;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 32px;
+    }
+
+    table {
+      border-collapse: separate;
+      border-spacing: 20px;
+    }
+
+    td {
+      width: 250px;
+      height: 500px;
+      border-radius: 12px;
+      text-align: center;
+      vertical-align: middle;
+      padding: 15px;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
+    }
+
+    td img.character {
+      width: 100px;
+      height: 100px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      border: 3px solid white;
+      background-color: rgba(0,0,0,0.5);
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Hover image overlay */
+    .hover-img {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 220px;
+      height: 250px;
+      border-radius: 10px;
+      display: none;
+      z-index: 3;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+    }
+
+    td:hover .hover-img {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>5 Star Character List</h1>
+  <table>
+    <tr>
+      <td style="background-image: url('Images/PhrolovaBG.jpg');">
+        <a href="https://youtu.be/Hi1z3nFl0Ls?si=rorC42xnI_wbVX0u">
+          <img src="Images/Phrolova.png" alt="Phrolova" class="character">
+        </a>
+        <img src="Images/PhrolovaHover.jpg" alt="Phrolova Hover" class="hover-img">
+      </td>
+      <td style="background-image: url('Images/ShorekeeperBG.png');">
+        <a href="https://youtu.be/FQEyNpQnK60?si=LhvSG0sy8KcO2p2A">
+          <img src="Images/Shorekeeper.png" alt="Shorekeeper" class="character">
+        </a>
+        <img src="Images/ShorekeeperHover.jpg" alt="Shorekeeper Hover" class="hover-img">
+      </td>
+      <td style="background-image: url('Images/CamellyaBG.png');">
+        <a href="https://youtu.be/UNMERR4tets?si=qV7jShrPNd53p7gO">
+          <img src="Images/Camellya.png" alt="Camellya" class="character">
+        </a>
+        <img src="Images/CamellyaHover.jpg" alt="Camellya Hover" class="hover-img">
+      </td>
+    </tr>
+    <tr>
+      <td style="background-image: url('Images/CantarellaBG.png');">
+        <a href="https://youtu.be/aKOfEX8QkyA?si=LN7h9XN1kLYr-YV3">
+          <img src="Images/Cantarella.png" alt="Cantarella" class="character">
+        </a>
+        <img src="Images/CantarellaHover.jpg" alt="Cantarella Hover" class="hover-img">
+      </td>
+      <td style="background-image: url('Images/CarlottaBG.png');">
+        <a href="https://youtu.be/wTUUln5M8vA?si=RjypTvLHhw0Rx1Jk">
+          <img src="Images/Carlotta.png" alt="Carlotta" class="character">
+        </a>
+        <img src="Images/CarlottaHover.jpg" alt="Carlotta Hover" class="hover-img">
+      </td>
+      <td style="background-image: url('Images/ZhezhiBG.png');">
+        <a href="https://youtu.be/GPaHYat18DI?si=Hp1yyf3ZhIt_rf6P">
+          <img src="Images/Zhezhi.png" alt="Zhezhi" class="character">
+        </a>
+        <img src="Images/ZhezhiHover.jpg" alt="Zhezhi Hover" class="hover-img">
+      </td>
+    </tr>
+    <tr>
+      <td style="background-image: url('Images/CartethyiaBG.png');">
+        <a href="https://youtu.be/optr9r9VkoQ?si=WHmDnGtATOYi1els">
+          <img src="Images/Cartethyia.png" alt="Cartethyia" class="character">
+        </a>
+        <img src="Images/CartethyiaHover.jpg" alt="Cartethyia Hover" class="hover-img">
+      </td>
+      <td style="background-image: url('Images/ChangliBG.png');">
+        <a href="https://youtu.be/jYjxjy1l6Co?si=xkt-PZMqOIDnO2Gh">
+          <img src="Images/Changli.png" alt="Changli" class="character">
+        </a>
+        <img src="Images/ChangliHover.jpg" alt="Changli Hover" class="hover-img">
+      </td>
+      <td style="background-image: url('Images/CiacconaBG.png');">
+        <a href="https://youtu.be/G6P_AEmaQL8?si=bnKJDXwDY62JXPit">
+          <img src="Images/Ciaccona.png" alt="Ciaccona" class="character">
+        </a>
+        <img src="Images/CiacconaHover.jpg" alt="Ciaccona Hover" class="hover-img">
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

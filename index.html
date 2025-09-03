@@ -14,16 +14,21 @@
       justify-content: center;
       align-items: center;
       padding: 20px;
+      min-height: 100vh;
     }
 
     h1 {
       margin-bottom: 20px;
-      font-size: 32px;
+      font-size: 36px;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     table {
       border-collapse: separate;
       border-spacing: 20px;
+      margin-bottom: 40px;
     }
 
     td {
@@ -68,10 +73,22 @@
     td:hover .hover-img {
       display: block;
     }
+
+    footer {
+      margin-top: auto;
+      text-align: center;
+      font-size: 16px;
+      color: #aaa;
+      padding: 10px;
+      border-top: 1px solid #444;
+      width: 100%;
+    }
+
   </style>
 </head>
 <body>
-  <h1>5 Star Character List</h1>
+  <h1>My Favorite Wuthering Waves Character</h1>
+
   <table>
     <tr>
       <td style="background-image: url('Images/PhrolovaBG.jpg');">
@@ -134,5 +151,9 @@
       </td>
     </tr>
   </table>
+
+  <footer>
+   © Wuthering Waves | Activity 2
+  </footer>
 </body>
 </html>

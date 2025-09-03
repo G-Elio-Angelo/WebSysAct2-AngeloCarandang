@@ -54,6 +54,7 @@
       background-color: rgba(0,0,0,0.5);
       position: relative;
       z-index: 2;
+      transition: transform 0.3s ease;
     }
 
     /* Hover image overlay */
@@ -62,14 +63,22 @@
       top: 80%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 220px;
-      height: 250px;
+      width: 120px;
+      height: 150px;
       border-radius: 10px;
-      display: none;
+      opacity: 0; 
       z-index: 3;
       box-shadow: 0 4px 15px rgba(0,0,0,0.7);
-    }
+      transition: opacity 0.3s ease .3s;
+}
 
+    td:hover .hover-img {
+  opacity: 1; 
+}
+    
+    td img.character:hover {
+      transform: scale(1.3); 
+}
     td:hover .hover-img {
       display: block;
     }
